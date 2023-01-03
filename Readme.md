@@ -284,7 +284,7 @@ A control command is composed of a few parts.
   ```json
   "text": "Hello world"
   ```
-- `control`: Required for `type=control`. A Consumer control code as found in `lib/adafruit_hid/consumer_control_code.py`. There are more of them not listed in that file, if you find one you need, feel free to open a PR.
+- `control`: Required for `type=control`. A Consumer control code as found in `lib/adafruit_hid/consumer_control_code.py`. There are more of them not listed in that file, if you find one you need, feel free to open a PR. The [HID Usage Tables for Universal Serial Bus (USB)](https://www.usb.org/sites/default/files/hut1_22.pdf) if needed.
   ```json
   "control": "VOLUME_DOWN"
   ```

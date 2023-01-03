@@ -4,6 +4,7 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "VisualStudioExptTeam.intellicode-api-usage-examples",
-        "VisualStudioExptTeam.vscodeintellicode"
+        "VisualStudioExptTeam.vscodeintellicode",
+        "ms-vscode.vscode-serial-monitor"
     ]
 }
