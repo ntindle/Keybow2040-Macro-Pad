@@ -1,6 +1,6 @@
 
 <Center>
-<h1>KEYBOW 2040</h1>
+<h1>KEYBOW 2040 MACRO PAD</h1>
 <h3>This repo contains all the code for turning a Keybow 2040 into a fully fledged data-driven macropad.</h3>
     <div>
         <img src="./.github/img.jpg"/>
