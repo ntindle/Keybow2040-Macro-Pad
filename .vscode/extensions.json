@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "joedevivo.vscode-circuitpython",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "VisualStudioExptTeam.vscodeintellicode"
+    ]
+}

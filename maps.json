@@ -1,0 +1,430 @@
+{
+    "layers": [
+        {
+            "name": "General",
+            "description": "General Keybinds",
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "keymap": [
+                {
+                    "label": "Ins.",
+                    "type":"key",
+                    "keys": [
+                        "INSERT"
+                    ],
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "Home",
+                    "type":"key",
+                    "keys": [
+                        "HOME"
+                    ]
+                    ,
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "PgUp",
+                    "type":"key",
+                    "keys": [
+                        "PAGE_UP"
+                    ],
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "()",
+                    "type": "text",
+                    "text": "()",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Del",
+                    "type": "key",
+                    "keys": [
+                        "DELETE"
+                    ],
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "End",
+                    "type": "key",
+                    "keys": [
+                        "END"
+                    ],
+                    "color": [ 0, 0, 255]
+                },
+                {
+                    "label": "PgDn",
+                    "type": "key",
+                    "keys": [
+                        "PAGE_DOWN"
+                    ],
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "Win",
+                    "type": "key",
+                    "keys": [
+                        "GUI"
+                    ],
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "Ctrl",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL"
+                    ],
+                    "color": [ 0, 0 , 255]
+                },
+                {
+                    "label": "Alt",
+                    "type": "key",
+                    "keys": [
+                        "ALT"
+                    ],
+                    "color": [ 0, 0, 255]
+                },
+                {
+                    "label": "ArrUp",
+                    "type": "key",
+                    "keys": [
+                        "UP_ARROW"
+                    ],
+                    "color": [ 255, 255, 255]
+                },
+                {
+                    "label": "Pause",
+                    "type": "key",
+                    "keys": [
+                        "PAUSE"
+                    ],
+                    "color": [ 0, 0, 255]
+                },
+                {
+                    "label": "Shift",
+                    "type": "key",
+                    "keys": [
+                        "SHIFT"
+                    ],
+                    "color": [ 0, 0, 255]
+                },
+                {
+                    "label": "LftAr",
+                    "type": "key",
+                    "keys": [
+                        "LEFT_ARROW"
+                    ],
+                    "color": [ 255, 255, 255]
+                },
+                {
+                    "label": "DwnAr",
+                    "type": "key",
+                    "keys": [
+                        "DOWN_ARROW"
+                    ],
+                    "color": [ 255, 255, 255]
+                },
+                {
+                    "label": "RigAr",
+                    "type": "key",
+                    "keys": [
+                        "RIGHT_ARROW"
+                    ],
+                    "color": [ 255, 255, 255]
+                }
+            ],
+            "encoder_up_action": {
+                "type": "control",
+                "control": "VOLUME_UP"
+            },
+            "encoder_down_action": {
+                "type": "control",
+                "control": "VOLUME_DOWN"
+            }
+        },
+        {
+            "name": "VS Code",
+            "description": "VS Code Keybinds",
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "keymap": [
+                {
+                    "label": "Save",
+                    "type":"key",
+                    "keys": [
+                        "CONTROL",
+                        "S"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "NewPg",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "N"
+                    ],
+                    "color":  [ 255, 0, 0]
+                },
+                {
+                    "label": "Open",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "O"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Undo",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "Z"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Redo",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "Y"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Cut",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "X"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Copy",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "C"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Paste",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "V"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Find",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "F"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Rplce",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "H"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "FNext",
+                    "type": "key",
+                    "keys": [
+                        "F3"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "FPrev",
+                    "type": "key",
+                    "keys": [
+                        "SHIFT",
+                        "F3"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "SlctA",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "A"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Close",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "W"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "ClAll",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "SHIFT",
+                        "W"
+                    ],
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "ClsOt",
+                    "type": "key",
+                    "keys": [
+                        "CONTROL",
+                        "K",
+                        "CONTROL",
+                        "F"
+                    ],
+                    "color": [ 255, 0, 0]
+                }
+            ],
+            "encoder_up_action": {
+                "type": "control",
+                "control": "VOLUME_UP"
+            },
+            "encoder_down_action": {
+                "type": "control",
+                "control": "VOLUME_DOWN"
+            }
+        },
+        {
+            "name": "Consumer Controls",
+            "description": "Consumer Controls Keybinds",
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "keymap": [
+                {
+                    "label": "<<",
+                    "type": "control",
+                    "control": "SCAN_PREVIOUS_TRACK",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": ">>",
+                    "type": "control",
+                    "control": "SCAN_NEXT_TRACK",
+                    "color":  [ 255, 0, 0]
+                },
+                {
+                    "label": "Pause",
+                    "type": "control",
+                    "control": "PAUSE",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Play",
+                    "type": "control",
+                    "control": "PLAY",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Mute",
+                    "type": "control",
+                    "control": "MUTE",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Mail",
+                    "type": "control",
+                    "control": "AL_EMAIL_READER",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Files",
+                    "type": "control",
+                    "control": "AL_LOCAL_MACHINE_BROWSER",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Calc",
+                    "type": "control",
+                    "control": "AL_CALCULATOR",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Search",
+                    "type": "control",
+                    "control": "AC_SEARCH",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Back",
+                    "type": "control",
+                    "control": "AC_BACK",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Forward",
+                    "type": "control",
+                    "control": "AC_FORWARD",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Rfrsh",
+                    "type": "control",
+                    "control": "AC_REFRESH",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Unused",
+                    "type": "control",
+                    "control": "AC_DESKTOP_SHOW_ALL_WINDOWS",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Unused",
+                    "type": "control",
+                    "control": "AC_TILE_HORIZONTALLY",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Unused",
+                    "type": "control",
+                    "control": "AC_TILE_VERTICALLY",
+                    "color": [ 255, 0, 0]
+                },
+                {
+                    "label": "Unused",
+                    "type": "control",
+                    "control": "MODE_STEP",
+                    "color": [ 255, 0, 0]
+                }
+            ],
+            "encoder_up_action": {
+                "type": "control",
+                "control": "VOLUME_UP"
+            },
+            "encoder_down_action": {
+                "type": "control",
+                "control": "VOLUME_DOWN"
+            }
+        }
+    ]
+}
