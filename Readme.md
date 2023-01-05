@@ -68,6 +68,8 @@ Secure everything down with the appropriate screws, then hook it all up with the
 
 <h2>Programming</h2>
 
+> Several libraries have changes from their defaults to modify behavior. `pmk` has the pinout rotated for the board. `adafruit_hid` has an expanded Consumer Control Code list.
+
 First, update your Keybow 2040 to CircuitPython 7.3.3 using the firmware found [here](https://circuitpython.org/board/pimoroni_keybow2040/).
 
 Next, copy all the files in this repo (except the `.github` folder) onto the board, replace any existing files. 
